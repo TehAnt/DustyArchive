@@ -1509,3 +1509,161 @@ body::before{
   font-size:2.2rem;
 
 }
+
+/* ===================================== */
+/* MOBILE RESPONSIVE */
+/* ===================================== */
+
+@media (max-width: 768px){
+
+  body{
+      font-size:15px;
+  }
+  
+  /* Hero */
+  
+  .hero{
+      padding:20px;
+      height:90vh;
+  }
+  
+  .shoebox{
+      width:90%;
+      padding:25px;
+  }
+  
+  h1{
+      font-size:2rem;
+  }
+  
+  .shoebox p{
+      font-size:.95rem;
+  }
+  
+  /* Timeline */
+  
+  .timeline{
+      padding:15px;
+  }
+  
+  .memory{
+      width:92%;
+      max-width:none;
+      margin:35px auto;
+  }
+  
+  .year{
+      font-size:1.4rem;
+      padding:10px 20px;
+  }
+  
+  /* Captions */
+  
+  .caption{
+      font-size:.9rem;
+  }
+  
+  /* Remove tilted photos on phones */
+  
+  .left,
+  .right{
+      transform:none;
+  }
+  
+  /* Music player */
+  
+  .music{
+      position:relative;
+      top:auto;
+      right:auto;
+      margin:30px auto;
+      width:100%;
+  }
+  
+  .cassette-player{
+      width:92%;
+      max-width:320px;
+  }
+  
+  .spotify-button{
+      width:92%;
+      max-width:320px;
+      justify-content:center;
+  }
+  
+  /* Letter popup */
+  
+  .letter-page{
+  
+      width:94%;
+      height:88vh;
+  
+      padding:28px 22px;
+  
+      border-radius:18px;
+  }
+  
+  .letter-page h2{
+  
+      font-size:1.5rem;
+  }
+  
+  .letter-page p{
+  
+      font-size:.9rem;
+      line-height:1.55;
+  }
+  
+  /* Envelope */
+  
+  .envelope{
+  
+      width:320px;
+      height:210px;
+  }
+  
+  .flap{
+  
+      border-left:160px solid transparent;
+      border-right:160px solid transparent;
+      border-top:110px solid #cdb58d;
+  }
+  
+  /* BTS button */
+  
+  .btsButton{
+  
+      width:85%;
+      text-align:center;
+  }
+  
+  /* Skyline */
+  
+  .skyline img{
+  
+      min-height:140vh;
+  }
+  
+  /* Footer */
+  
+  footer{
+  
+      padding:30px 15px;
+      font-size:1.2rem;
+  }
+  
+  /* Lightbox */
+  
+  #lightboxImg{
+  
+      max-width:96%;
+      max-height:70%;
+  }
+  
+  #downloadBtn{
+  
+      font-size:.95rem;
+      padding:12px 20px;
+  }
+  
+  }

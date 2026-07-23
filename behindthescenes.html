@@ -12,6 +12,8 @@ content="width=device-width, initial-scale=1">
 
 <title>Behind the Scenes</title>
 
+
+
 <style>
 
 body{
@@ -78,9 +80,7 @@ align-items:center;
 
 .videoCard{
 
-width:90%;
-
-max-width:500px;
+width:min(90%,500px);
 
 background:#242729;
 
@@ -132,6 +132,92 @@ opacity:.8;
 
 }
 
+.caption{
+
+margin-top:15px;
+
+font-size:1rem;
+
+opacity:.8;
+
+}
+
+
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+body{
+
+padding:20px;
+
+}
+
+h1{
+
+font-size:2rem;
+
+}
+
+.subtitle{
+
+font-size:1rem;
+
+margin-bottom:35px;
+
+}
+
+.message{
+
+font-size:1rem;
+
+line-height:1.6;
+
+margin-bottom:35px;
+
+}
+
+.back{
+
+position:static;
+
+display:inline-block;
+
+margin-bottom:30px;
+
+}
+
+.videoGrid{
+
+gap:30px;
+
+}
+
+.videoCard{
+
+width:100%;
+
+padding:15px;
+
+box-sizing:border-box;
+
+}
+
+.caption{
+
+font-size:.9rem;
+
+}
+
+video{
+
+border-radius:12px;
+
+}
+
+}
 </style>
 
 </head>
